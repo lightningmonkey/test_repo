@@ -20,6 +20,7 @@ def curl_generate():
 
 
 def curl_parse(local):
+    #another comment
     curl = check_output('pbpaste')
     delim = " -H"
     splits = [e+delim for e in curl.split(delim) if e != ""]

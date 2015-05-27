@@ -8,6 +8,7 @@ READ_FILE = 'curl_parse_read.txt'
 
 
 def curl_generate():
+    #add a comment
     with open(READ_FILE, 'r') as f:
         lines = f.readlines()
         lines = [s.replace("\n", "") for s in lines]
